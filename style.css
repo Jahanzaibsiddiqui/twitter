@@ -41,7 +41,7 @@ body {
     border-radius: 100px;
     text-align: center;
     padding: 2%;
-    width: 50%;
+    width: 350px;
 }
 .social-links .google img {
     width: 9%;
@@ -63,7 +63,7 @@ body {
     border-radius: 100px;
     text-align: center;
     padding: 2%;
-    width: 50%;
+    width: 350px;
     margin-top: 15px;
 }
 .social-links .apple img {
@@ -84,7 +84,7 @@ body {
 }
 .apple+p {
     text-align: center;
-    width: 50%;
+    width: 350px;
     margin-bottom: 1%;
     margin-top: 1%;
 }
@@ -94,7 +94,7 @@ body {
     border-radius: 100px;
     text-align: center;
     padding: 2%;
-    width: 50%;
+    width: 350px;
 }
 .social-links .phone-email a {
     text-decoration: none;
@@ -127,7 +127,11 @@ body {
     color: rgb(9, 165, 238);
     text-align: center;
     padding: 2%;
-    width: 50%;
+    width: 350px;
+    margin-bottom: 2%;
+}
+.sign-in-box a {
+    text-decoration: none;
 }
 .sign-in-btn:hover {
     background-color: rgba(131, 178, 250, 0.144);
@@ -161,7 +165,7 @@ footer li a:hover {
          width: auto;
      }   
   }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 650px) {
     .heading h1 {
     font-size: 34px;
   }
